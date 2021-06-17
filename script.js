@@ -26,7 +26,7 @@ function compute()
                 ",<br>you will receive an amount of " + total +
                 "<br>in the year " + (curyear+years) + ".";
     } else {
-        alert("Amount is required.");
+        alert("Please enter an amount greater than zero.");
     }
 
     result.innerHTML = Html;
