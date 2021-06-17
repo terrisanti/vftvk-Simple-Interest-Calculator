@@ -27,6 +27,7 @@ function compute()
                 "<br>in the year " + (curyear+years) + ".";
     } else {
         alert("Please enter an amount greater than zero.");
+        document.getElementById("principal").focus();
     }
 
     result.innerHTML = Html;
