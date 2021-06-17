@@ -33,6 +33,8 @@ function compute()
     
 }
 
+document.getElementById("principal").focus();
+
 //Slider
 var slider = document.getElementById("rate");
 var output = document.getElementById("ratenum");
