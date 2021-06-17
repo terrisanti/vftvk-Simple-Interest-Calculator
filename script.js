@@ -37,9 +37,9 @@ function compute()
 var slider = document.getElementById("rate");
 var output = document.getElementById("ratenum");
 
-output.innerHTML = parseFloat(slider.value).toFixed(1) + "%"; 
+output.innerHTML = parseFloat(slider.value).toFixed(2) + "%"; 
 
 slider.oninput = function() {
-  output.innerHTML = parseFloat(this.value).toFixed(1) + "%";
+  output.innerHTML = parseFloat(this.value).toFixed(2) + "%";
 }
         
