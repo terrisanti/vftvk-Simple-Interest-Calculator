@@ -21,10 +21,10 @@ function compute()
 
 
     if(principal > 0){
-        Html = "If you deposit " + amount +
-                "<br> at an interest rate of " + ratenum +
-                ",<br>you will receive an amount of " + total +
-                "<br>in the year " + (curyear+years) + ".";
+        Html = "If you deposit <span>" + amount +
+                "</span><br> at an interest rate of <span>" + ratenum +
+                "</span>,<br>you will receive an amount of <span>" + total +
+                "<br>in the year <span>" + (curyear+years) + "</span>.";
     } else {
         alert("Please enter an amount greater than zero.");
         document.getElementById("principal").focus();
